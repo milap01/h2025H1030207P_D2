@@ -1,0 +1,16 @@
+@startuml
+start
+:Technician requests a part;
+:Check available stock;
+if (Enough stock?) then (yes)
+  :Reserve and approve non-critical request;
+else (no)
+  :Open AOG when aircraft is grounded;
+  :Create reorder proposal;
+  :Planner reviews proposal;
+  :Store keeper receives and issues item;
+endif
+:Technician fits part;
+:Close AOG and record duration;
+stop
+@enduml

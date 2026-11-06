@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+actor "Store keeper" as SK
+actor Technician as TECH
+actor Planner as PLAN
+actor Commander as CMD
+rectangle "Inventory Management System" {
+  usecase "Maintain parts and stock" as UC1
+  usecase "Raise requisition" as UC2
+  usecase "Approve or reject requisition" as UC3
+  usecase "Receive and issue stock" as UC4
+  usecase "Track and clear AOG" as UC5
+  usecase "View reports and proposals" as UC6
+}
+SK -- UC1
+SK -- UC4
+SK -- UC6
+TECH -- UC2
+TECH -- UC5
+TECH -- UC6
+PLAN -- UC3
+PLAN -- UC6
+CMD -- UC3
+CMD -- UC5
+CMD -- UC6
+@enduml

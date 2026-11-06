@@ -1,0 +1,176 @@
+Military Aviation Spare Parts Inventory System (sample data)
+Demo users: keeper, tech, planner, commander (prototype role check; no passwords)
+
+Login or quit: Logged in as planner [PLANNER]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: Policy fixed/minmax: Policy: Minimum-maximum
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: 
+Login or quit: Logged in as tech [TECHNICIAN]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: Tail: Priority routine/urgent/aog: Number of requisition lines: Line 1 part number: Line 1 quantity: Aircraft grounded? y/n: [Notification] AOG event AOG-0001 opened for AC-01
+[Notification] Reorder proposal: ROT-220 x4 (Minimum-maximum)
+[Notification] Critical requisition REQ-0001 requires commander approval.
+Created REQ-0001 [RAISED]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: 
+Login or quit: Logged in as planner [PLANNER]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: ROT-220 qty=4 policy=Minimum-maximum status=OPEN
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: Part number: Approve proposal? y/n: Proposal decision recorded.
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: 
+Login or quit: Logged in as keeper [STORE_KEEPER]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: Part number of approved proposal: Proposal received.
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: 
+Login or quit: Logged in as commander [COMMANDER]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: Requisition ID: Approve? y/n: Decision recorded.
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: 
+Login or quit: Logged in as keeper [STORE_KEEPER]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: Requisition ID: Stock issued.
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: 
+Login or quit: Logged in as tech [TECHNICIAN]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: FLT-101: Hydraulic filter available=3 critical=false type=consumable
+ROT-220: Fuel control unit available=3 critical=true type=rotable
+ELE-330: Navigation relay available=2 critical=true type=consumable
+  FLT-101-001 FLT-101 [IN_STOCK]
+  FLT-101-002 FLT-101 [IN_STOCK]
+  FLT-101-003 FLT-101 [IN_STOCK]
+  ELE-330-001 ELE-330 [IN_STOCK]
+  ELE-330-002 ELE-330 [IN_STOCK]
+  RB-ROT-220-001 ROT-220 [ISSUED]
+  RB-ROT-220-002 ROT-220 [IN_STOCK]
+  RB-ROT-220-003 ROT-220 [IN_STOCK]
+  RB-ROT-220-004 ROT-220 [IN_STOCK]
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: Issued item serial: Item fitted; open AOG event closed.
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: AOG DURATION REPORT
+Event | Tail | Cause | Status | Duration hours
+AOG-0001 | AC-01 | [ROT-220] | CLOSED | 0.00
+Mean closed-event duration: 0.00 hours
+Saved under reports/
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: POLICY COMPARISON (12-month synthetic demand; opening stock=3; 30-day replenishment lead time)
+Policy | Stock-out events | Mean AOG duration (hours)
+Fixed level | 11 | 442.3
+Minimum-maximum | 7 | 504.0
+
+1 List parts/stock  2 Raise requisition  3 Approve/reject requisition
+4 Receive stock  5 Issue approved requisition  6 Fit installed item
+7 Declare AOG  8 Mark unserviceable  9 Repair return  10 Set reorder policy
+11 View proposals  12 Approve/return proposal  13 Stock report  14 AOG report
+15 View requisitions  16 Add part  17 Receive approved proposal  18 Update part
+19 Compare reorder policies  0 Logout
+Select: 
+Login or quit: Goodbye.

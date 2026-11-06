@@ -1,0 +1,49 @@
+@startuml
+class Part {
+  +number: String
+  +description: String
+  +unitCost: double
+  +critical: boolean
+  +reorderLevel: int
+}
+class StockItem {
+  +serial: String
+  +status: ItemStatus
+  +transition(target)
+}
+class Requisition {
+  +id: String
+  +tail: String
+  +priority: Priority
+  +status: ReqStatus
+  +lines: List<ReqLine>
+}
+class ReqLine {
+  +partNumber: String
+  +quantity: int
+}
+class Aircraft <<domain concept>> {
+  +tail: String
+}
+class AOGEvent { +start: DateTime; +end: DateTime; +durationHours() }
+class InventoryService <<Facade>>
+class InventoryRepository <<Repository>>
+interface ReorderPolicy { +quantity(onHand, part) }
+class FixedLevelPolicy
+class MinMaxPolicy
+interface ReportStrategy { +render(service) }
+class StockReport
+class AOGReport
+Part "1" -- "0..*" StockItem
+Requisition "1" *-- "1..*" ReqLine
+ReqLine "*" --> "1" Part
+Requisition "*" --> "1" Aircraft
+Aircraft "1" -- "0..*" AOGEvent
+InventoryService --> InventoryRepository
+ReorderPolicy <|.. FixedLevelPolicy
+ReorderPolicy <|.. MinMaxPolicy
+ReportStrategy <|.. StockReport
+ReportStrategy <|.. AOGReport
+InventoryService --> ReorderPolicy
+InventoryService --> ReportStrategy
+@enduml

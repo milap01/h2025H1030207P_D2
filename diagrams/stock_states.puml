@@ -1,0 +1,11 @@
+@startuml
+[*] --> IN_STOCK
+IN_STOCK --> RESERVED : reserve
+IN_STOCK --> UNSERVICEABLE : mark unserviceable
+RESERVED --> IN_STOCK : cancel reservation
+RESERVED --> ISSUED : issue
+ISSUED --> INSTALLED : fit
+ISSUED --> UNSERVICEABLE : failure
+INSTALLED --> UNSERVICEABLE : remove
+UNSERVICEABLE --> IN_STOCK : repair return
+@enduml

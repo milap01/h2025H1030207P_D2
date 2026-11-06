@@ -1,0 +1,18 @@
+@startuml
+actor Technician
+participant InventoryService
+participant Repository
+actor Planner
+actor "Store keeper" as Keeper
+Technician -> InventoryService: raise AOG requisition
+InventoryService -> Repository: check available stock
+Repository --> InventoryService: stock is zero
+InventoryService -> Repository: save AOG event and proposal
+InventoryService -> Planner: notify proposal
+Planner -> InventoryService: approve proposal
+InventoryService -> Repository: record approval
+Keeper -> InventoryService: receive proposed stock
+InventoryService -> Repository: save receipt
+Technician -> InventoryService: fit issued part
+InventoryService -> Repository: close matching AOG event
+@enduml

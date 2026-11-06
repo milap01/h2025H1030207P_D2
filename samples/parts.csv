@@ -1,0 +1,4 @@
+number,description,unitCost,critical,reorderLevel,kind,minimum,maximum
+FLT-101,Hydraulic filter,85.0,false,4,consumable,2,8
+ROT-220,Fuel control unit,2400.0,true,2,rotable,1,4
+ELE-330,Navigation relay,310.0,true,3,consumable,2,7
